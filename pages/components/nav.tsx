@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
-import myAvatar from "../../public/images/avatar.jpg";
-import { navigation } from "../utils/constant";
+import { navigation } from "../../utils/constant"
+
 
 export default function Nav() {
 
@@ -24,7 +24,7 @@ export default function Nav() {
             >
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5 text-white text-2xl">
-                       CS
+                        CS
                     </a>
                 </div>
                 <div className="flex lg:hidden">
