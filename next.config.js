@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com'],
     formats: ["image/webp"],
+    pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js']
   }
 }
 
