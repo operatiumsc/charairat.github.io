@@ -9,7 +9,9 @@ export default function Home() {
     <div>
        <Head>
         <title>Charairat Swaengsap</title>
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
+
       <Nav />
       <Hero />
       <About />

@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: isProd ? 'charairat.github.io' : '',
+  assetPrefix: isProd ? 'operatiumsc.github.io' : '',
   images: {
     domains: ['images.unsplash.com'],
     formats: ["image/webp"],
