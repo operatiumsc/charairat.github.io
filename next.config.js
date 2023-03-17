@@ -8,6 +8,7 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com'],
     formats: ["image/webp"],
+    unoptimized: true,
   }
 }
 
