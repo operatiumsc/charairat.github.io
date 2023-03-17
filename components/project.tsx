@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { projects } from "../../utils/constant";
+import { projects } from "../utils/constant";
 
 export default function Project() {
     return (
