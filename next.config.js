@@ -10,9 +10,6 @@ const nextConfig = {
     formats: ["image/webp"],
     unoptimized: true,
   },
-  webpack(config, options) {
-    return config;
-}
 }
 
 module.exports = nextConfig
