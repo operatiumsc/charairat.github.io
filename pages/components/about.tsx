@@ -1,11 +1,12 @@
-import { links, stats } from "../utils/constant";
+import Image from "next/image";
 
 export default function About() {
     return (
         <div id="about" className="min-h-screen relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-            <img
+            <Image
                 src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
                 alt=""
+                fill={true}
                 className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
             />
             <svg
@@ -112,14 +113,13 @@ export default function About() {
                         <li>Application Programing Interfaces (APIs), JSON</li>
                         <li>Basic knowledge of UX & UI Design, System Analysis & Design</li>
                     </ul>
-                    <h5 className="text-4xl font-bold tracking-tight text-white sm:text-xl  mb-3">
+                    {/* <h5 className="text-4xl font-bold tracking-tight text-white sm:text-xl  mb-3">
                         Currently Learning Skills:
                     </h5>
                     <ul className="list-disc text-white pl-10 pb-5">
                         <li>React.js, Next.js</li>
                         <li>HTML, TailwindCSS, TypeScript</li>
-                    </ul>
-
+                    </ul> */}
                 </div>
 
             </div>

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
@@ -23,13 +23,8 @@ export default function Nav() {
                 aria-label="Global"
             >
                 <div className="flex lg:flex-1">
-                    <a href="#" className="-m-1.5 p-1.5">
-                        <Image
-                            src={myAvatar}
-                            alt="Charairat Sawengsap"
-                            width={45}
-                            className="rounded-full"
-                        />
+                    <a href="#" className="-m-1.5 p-1.5 text-white text-2xl">
+                       CS
                     </a>
                 </div>
                 <div className="flex lg:hidden">
@@ -87,7 +82,7 @@ export default function Nav() {
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img
+                            <Image
                                 className="h-8 w-auto"
                                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                                 alt=""
