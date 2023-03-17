@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Hero() {
     return (
         <div id="hero-section" className="bg-black h-screen text-white">
@@ -28,18 +30,34 @@ export default function Hero() {
                     </svg>
                 </div>
                 <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+
+                    <div className="mx-auto max-w-fit my-8 justify-center">
+                        <Image
+                            src="/images/avatar.jpg"
+                            alt="Charairat Sawengsap"
+                            width={150}
+                            height={150}
+                            className="rounded-full justify-items-center"
+                        />
+                    </div>
+
                     <div className="text-center">
                         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                             Charairat Swaengsap
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-white">
-                            Hi, I'm a Software Developer building Desktop and Mobile
-                            Applications.
+                            Hi, I&apos;m a Software Developer building Desktop and Mobile Applications.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
                                 href="#"
                                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                onClick={() => {
+                                    window.scrollTo({
+                                        top: document.getElementById("about")?.offsetTop,
+                                        behavior: "smooth"
+                                    })
+                                }}
                             >
                                 Get started
                             </a>
@@ -52,7 +70,7 @@ export default function Hero() {
                             </a>
 
                         </div>
-                        <p className="mt-6 text-red-200 text-sm">
+                        <p className="mt-6 text-orange-600 text-sm">
                             Sorry for the inconvenience, my website is currently in development.</p>
                     </div>
                 </div>

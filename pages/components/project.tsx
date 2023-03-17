@@ -1,14 +1,15 @@
+import Image from "next/image";
 import { projects } from "../utils/constant";
 
 export default function Project() {
     return (
-        <div id="project" className="bg-white py-24 sm:py-32">
+        <div id="project" className="bg-black py-24 sm:py-32">
             <div className="mx-auto grid max-w-7xl gap-y-20 gap-x-8 px-6 lg:px-8 xl:grid-cols-3">
                 <div className="max-w-2xl">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                         Projects
                         </h2>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">
+                    <p className="mt-6 text-lg leading-8 text-gray-300">
                         Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper
                         suspendisse.
                     </p>
@@ -17,9 +18,9 @@ export default function Project() {
                     {projects.map((project) => (
                         <li key={project.name}>
                             <div className="flex items-center gap-x-6">
-                                <img className="h-16 w-16 rounded-lg" src={project.imageUrl} alt="" />
+                                <Image className="h-16 w-16 rounded-lg" src={project.imageUrl} alt="" width={100} height={100} />
                                 <div>
-                                    <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{project.name}</h3>
+                                    <h3 className="text-base font-semibold leading-7 tracking-tight text-white">{project.name}</h3>
                                     <p className="text-sm font-semibold leading-6 text-indigo-600">{project.role}</p>
                                 </div>
                             </div>
