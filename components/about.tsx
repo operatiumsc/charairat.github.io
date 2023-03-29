@@ -4,10 +4,10 @@ export default function About() {
     return (
         <div id="about" className="min-h-screen relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
             <Image
-                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 alt=""
                 fill={true}
-                className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+                className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center brightness-50"
             />
             <svg
                 viewBox="0 0 1097 845"
@@ -60,7 +60,7 @@ export default function About() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8 mb-10">
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">About Me</h2>
-                    <p className="mt-6 text-lg leading-8 text-gray-300">
+                    <p className="mt-6 leading-8 text-white text-xl">
                         I am someone who is passionate about technology and eager to learn new things. I enjoy adapting
                         new technologies to my work and take pride in the fact that my skills can help companies find
                         innovative solutions and support my team. I am constantly seeking new challenges and experiences to
@@ -74,7 +74,7 @@ export default function About() {
                         Education
                     </h2>
 
-                    <div className="flex flex-row mx-auto">
+                    <div className="flex flex-row mx-auto text-lg">
                         <ul className="list-disc text-white pl-10 pb-5">
                             <li>2013 - 2016</li>
                         </ul>
@@ -101,7 +101,7 @@ export default function About() {
                     <h2 className="text-4xl font-bold tracking-tight text-white sm:text-3xl mb-6">
                         Skills & Abilities
                     </h2>
-                    <h5 className="text-4xl font-bold tracking-tight text-white sm:text-xl mb-3">
+                    <h5 className="text-2xl font-bold tracking-tight text-white sm:text-xl mb-3">
                         Computer programming languages and related skills:
                     </h5>
                     <ul className="list-disc text-white pl-10 pb-5">
