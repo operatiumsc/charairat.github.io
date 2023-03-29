@@ -35,7 +35,7 @@ export default function Footer() {
                     <div className="my-8 sm:mb-0">
                         <h2 className="text-xl font-bold mb-4 text-white">Follow Me</h2>
                         <ul className="text-gray-400">
-                            <li className="mb-2"><Link href="#"><i className="fa-brands fa-github mr-2"></i> Twitter</Link></li>
+                            <li className="mb-2"><Link href="#"><i className="fa-brands fa-twitter mr-2"></i> Twitter</Link></li>
                             <li className="mb-2"><Link href="#"><i className="fab fa-linkedin mr-2"></i> LinkedIn</Link></li>
                             <li className="mb-2"><Link href="https://github.com/operatiumsc"><i className="fab fa-github mr-2"></i> GitHub</Link></li>
                         </ul>
