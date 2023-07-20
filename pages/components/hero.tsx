@@ -1,6 +1,8 @@
 import Image from "next/image"
 
 export default function Hero() {
+    const myName = `Charairat Swaengsap`
+    const introduceText = `Hi I'm Full Stack Mobile App Developer.`
     return (
         <div id="hero-section" className="bg-black h-screen text-white">
             <div className="relative isolate px-6 pt-14 lg:px-8">
@@ -43,10 +45,10 @@ export default function Hero() {
 
                     <div className="text-center">
                         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                            Charairat Swaengsap
+                           {myName}
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-white">
-                            Hi, I&apos;m a Software Developer building Desktop and Mobile Applications.
+                            {introduceText}    
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a

@@ -1,9 +1,9 @@
-import Project from "../components/project";
-import About from "../components/about";
-import Hero from "../components/hero";
-import Nav from "../components/nav";
-import Footer from "@/components/footer";
-import CookieConsentNotify from "@/components/cookie_consent";
+import Project from "./components/project";
+import About from "./components/about";
+import Hero from "./components/hero";
+import Nav from "./components/nav";
+import Footer from "@/pages/components/footer";
+import CookieConsentNotify from "@/pages/components/cookie_consent";
 
 
 export default function Home() {
