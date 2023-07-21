@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
-import { navigation } from "../utils/constant"
+import { navigation } from "../../utils/constant"
 
 
 export default function Nav() {

@@ -11,7 +11,7 @@ export default function Footer() {
                         </h2>
                         <ul className="text-gray-400">
                             <li className="mb-2"> Charairat Swaengsap (JEAN)</li>
-                            <li className="mb-2 text-xs">Full Stack App Developer</li>
+                            <li className="mb-2 text-xs">Full Stack Mobile App Developer</li>
                             <li className="mb-2 text-xs"></li>
                         </ul>
                     </div>
