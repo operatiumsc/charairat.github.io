@@ -2,10 +2,10 @@ import Image from "next/image"
 
 export default function Hero() {
     const myName = `Charairat Swaengsap`
-    const introduceText = `Hi I'm Full Stack Mobile App Developer.`
+    const introduceText = `Hi I'm Full Stack Developer.`
     return (
-        <div id="hero-section" className="bg-black h-screen text-white">
-            <div className="relative isolate px-6 pt-14 lg:px-8">
+        <div id="hero-section" className="min-h-screen relative isolate overflow-hidden bg-black py-12 sm:py-32">
+            
                 <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
                     <svg
                         className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -31,7 +31,7 @@ export default function Hero() {
                         </defs>
                     </svg>
                 </div>
-                <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+                <div className="mx-auto max-w-2xl py-32 content-center">
 
                     <div className="mx-auto max-w-fit my-8 justify-center">
                         <Image
@@ -101,7 +101,7 @@ export default function Hero() {
                         </defs>
                     </svg>
                 </div>
-            </div>
+           
         </div>
     )
 }

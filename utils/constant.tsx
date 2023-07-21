@@ -20,18 +20,6 @@ export const stats = [
 
 export const projects = [
   {
-    name: 'Marion D: Online Learning Platform',
-    role: 'Flutter',
-    imageUrl:
-      '/images/mariond-logo.webp',
-  },
-  {
-    name: 'Smart Time Attendance Mobile',
-    role: 'Flutter',
-    imageUrl:
-      '/images/stam-logo.webp',
-  },
-  {
     name: 'SmartS Academic System',
     role: 'Visual Basic .NET',
     imageUrl:
