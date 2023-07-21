@@ -10,8 +10,7 @@ export default function Project() {
             Projects
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae
-            elementum enim vitae ullamcorper suspendisse.
+            Some projects that I have worked on.
           </p>
         </div>
         <ul
