@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div id="about" className="min-h-screen relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
             <Image
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                src="images/about-me-bg.avif"
                 alt=""
                 fill={true}
                 className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center brightness-50"

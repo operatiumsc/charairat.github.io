@@ -20,13 +20,14 @@ export default function Project() {
           {projects.map((project) => (
             <li key={project.name}>
               <div className="flex items-center gap-x-6">
-                <Image
+              <i className="fa-regular fa-paper-plane"></i>
+                {/* <Image
                   className="h-16 w-16 rounded-lg"
                   src={project.imageUrl}
                   alt=""
                   width={100}
                   height={100}
-                />
+                /> */}
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-white">
                     {project.name}
