@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { projects } from "../../utils/constant";
+import { projects } from "../utils/constant";
 
 export default function Project() {
   return (
@@ -10,7 +10,7 @@ export default function Project() {
             Projects
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Some projects I have worked on.
+            Some projects I have ever worked on.
           </p>
         </div>
         <ul
