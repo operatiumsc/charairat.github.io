@@ -8,6 +8,7 @@ console.log('isProd:', isProd);
 
 const nextConfig = {
   //reactStrictMode: true,
+  output: "export",
   assetPrefix: isProd ? 'https://operatiumsc.github.io/' : '',
   images: {
     // domains: ['images.unsplash.com'],
@@ -15,6 +16,12 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    config.externals.push({
+      "dd-trace": "commonjs dd-trace",
+    })
+    return config
+  }
 }
 
 module.exports = nextConfig
