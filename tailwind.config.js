@@ -9,6 +9,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
     "./public/**/*.html",
   ],
+
   theme: {
     extend: {},
   },

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
-import { navigation } from "../../utils/constant"
+import { navigation } from "../utils/constant"
 
 
 export default function Nav() {
@@ -23,11 +23,7 @@ export default function Nav() {
                     className="flex items-center justify-between p-6 lg:px-8"
                     aria-label="Global"
                 >
-                    <div className="flex lg:flex-1">
-                        <a href="#" className="-m-1.5 p-1.5 text-white text-2xl">
-                            CS
-                        </a>
-                    </div>
+                    import React from "react";
                     <div className="flex lg:hidden">
                         <button
                             type="button"
@@ -40,10 +36,7 @@ export default function Nav() {
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12 text-sm font-semibold leading-6 text-white">
 
-                        <a href="#"
-                        >
-                            Home
-                        </a>
+
                         <a href="#"
 
                             onClick={() => handleScroll("about")}
@@ -54,14 +47,15 @@ export default function Nav() {
 
                             onClick={() => handleScroll("project")}
                         >
-                            Projects
+                            Portfolio
                         </a>
                         <a href="#"
 
-                            onClick={() => handleScroll("contact")}
+                            onClick={() => handleScroll("project")}
                         >
                             Contact
                         </a>
+
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                         <a
