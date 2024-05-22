@@ -7,7 +7,6 @@ console.log(process.env.NODE_ENV); // 'development'
 console.log('isProd:', isProd);
 
 const nextConfig = {
-  // output: 'export',
   //reactStrictMode: true,
   assetPrefix: isProd ? 'https://operatiumsc.github.io/' : '',
   images: {

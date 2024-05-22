@@ -20,16 +20,11 @@ jobs:
           node-version: 'lts/*'
           cache: 'npm'
 
-      - name: Build and Export
+      - name: Build and Serve
         run: |
           npm ci
-          echo "output=export" >> next.config.js
           npm run build
-
-      - name: Install and Run Serve
-        run: |
-          npm install -g serve
-          serve out -s
+          npm run start
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
