@@ -23,7 +23,7 @@ export default function Nav() {
                     className="flex items-center justify-between p-6 lg:px-8"
                     aria-label="Global"
                 >
-                    import React from "react";
+
                     <div className="flex lg:hidden">
                         <button
                             type="button"
